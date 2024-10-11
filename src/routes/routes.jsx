@@ -1,7 +1,7 @@
 import Layout from "../component/layout/Layout";
-import ForgetPassword from "../pages/hompage/ForgetPassword";
-import LoginPage from "../pages/hompage/LoginPage";
-import SignupPage from "../pages/hompage/SignupPage";
+import ForgetPassword from "../pages/homepage/ForgetPassword";
+import LoginPage from "../pages/homepage/LoginPage";
+import SignupPage from "../pages/homepage/SignupPage";
 
 export const ROUTE=[
     {

@@ -31,8 +31,6 @@ const SignupPage = () => {
             [name]: type === 'checkbox' ? checked : value
         });
     };
-    //ggggghhhh
-
     const validateForm = () => {
         let formErrors = {};
         if (form.password !== form.confirmPassword) {
