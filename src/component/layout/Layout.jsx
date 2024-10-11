@@ -1,4 +1,4 @@
-import Homepage from "../../pages/hompage/Homepage";
+import Homepage from "../../pages/homepage/Homepage";
 
 const Layout = ()=>{
     return(
