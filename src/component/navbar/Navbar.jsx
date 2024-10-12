@@ -42,7 +42,6 @@ const Navbar = () => {
         navigate('/');
     };
     return(
-<<<<<<< HEAD
         <div className='fixed top-0 left-0 right-0 z-50 mb-16 flex justify-between items-center p-4 shadow-md bg-[#006b9b]'>
             <div className='flex items-center mb-4'>
                 {/*<img src={myLogo} alt="Shopper Logo" className='h-8 w-8 mr-2'/>*/}
@@ -90,11 +89,5 @@ const Navbar = () => {
             )}
         </div>
     );
-=======
-        <>
-
-        </>
-    )
->>>>>>> 01c5cb835cfd070b5552526d566792c6a45d1a2f
 }
 export default Navbar
