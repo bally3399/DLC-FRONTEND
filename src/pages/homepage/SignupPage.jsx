@@ -135,14 +135,14 @@ const SignupPage = () => {
 
     return(
         <div className="flex justify-center items-center min-h-screen  bg-[#eeffff] relative">
-            <div className="absolute top-4 left-4">
-                <button
-                    onClick={() => navigate('/signUp')}
-                    className="flex items-center text-[#093c5e] hover:text-[#093c5e]"
-                >
-                    <HiArrowLeft className="mr-2" /> Back
-                </button>
-            </div>
+            {/*<div className="absolute top-4 left-4">*/}
+            {/*    <button*/}
+            {/*        onClick={() => navigate('/')}*/}
+            {/*        className="flex items-center text-[#093c5e] hover:text-[#093c5e]"*/}
+            {/*    >*/}
+            {/*        <HiArrowLeft className="mr-2" /> Back*/}
+            {/*    </button>*/}
+            {/*</div>*/}
             <div className="bg-[#eeffff] w-full max-w-md p-8 shadow-md rounded-lg">
                 <h2 className="text-2xl font-semibold text-center mb-6">Sign up</h2>
                 <form onSubmit={handleSubmit}>
@@ -256,7 +256,6 @@ const SignupPage = () => {
                                 backgroundColor: '#093c5e',
                                 color: 'white',
                                 paddingY: 2,
-                                // borderRadius: '9999px',
                                 '&:hover': {
                                     backgroundColor: '#093c5e',
                                 },

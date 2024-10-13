@@ -3,6 +3,7 @@ import {TextField} from "@mui/material";
 import {useNavigate} from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
 import {useState} from "react";
+import {FaCartShopping} from "react-icons/fa6";
 // import myLogo from "../../asset/image.jpg"
 
 
@@ -30,6 +31,9 @@ const Navbar = () => {
     const handleLoginClick = () => {
         navigate('/login');
     };
+    const handleCartClick = () =>{
+        navigate("/addCart")
+    }
 
     const handleContactUsClick = () => {
         navigate('/contact')
@@ -75,6 +79,10 @@ const Navbar = () => {
                 >
                     Signup
                 </button>
+                <div onClick={handleCartClick} className="flex items-center space-x-2 text-white cursor-pointer hover:bg-[#0fffe6] rounded-3xl px-4 py-2">
+                    <FaCartShopping className='text-2xl'/>
+                    <span>My cart</span>
+                </div>
                 <HiMenu className="text-2xl md:hidden cursor-pointer hover:text-gray-600"
                         onClick={() => setMenuOpen(!menuOpen)}/>
             </div>
