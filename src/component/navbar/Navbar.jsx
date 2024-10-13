@@ -51,20 +51,20 @@ const Navbar = () => {
                 {/*<img src={myLogo} alt="Shopper Logo" className='h-8 w-8 mr-2'/>*/}
                 <p className='text-lg font-bold text-white'>DLC</p>
             </div>
-            <div className='hidden md:flex space-x-6 text-lg'>
-                <div>
-                    <SearchField
-                        variant="outlined"
-                        placeholder="Search"
-                        size="small"
-                    />
-                </div>
+            <div className='hidden md:flex space-x-6 text-lg pl-32'>
                 <div onClick={handleHomeClick} className='hover:text-blue-300 cursor-pointer text-white'>Home</div>
-                <div className='hover:text-blue-300 cursor-pointer text-white'>About us</div>
                 <div className='hover:text-blue-300 cursor-pointer text-white'
                      onClick={handleContactUsClick}
                 >Contact us
                 </div>
+                <div>
+                    <SearchField
+                        variant="outlined"
+                        placeholder="Search for products"
+                        size="small"
+                    />
+                </div>
+                <div className='hover:text-blue-300 cursor-pointer text-white'>About us</div>
             </div>
             <div className='flex items-center space-x-4'>
                 <button
