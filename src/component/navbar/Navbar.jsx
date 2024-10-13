@@ -4,6 +4,7 @@ import {useNavigate} from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
 import {useState} from "react";
 import {FaCartShopping} from "react-icons/fa6";
+import {FaSearch} from "react-icons/fa";
 // import myLogo from "../../asset/image.jpg"
 
 
@@ -57,12 +58,14 @@ const Navbar = () => {
                      onClick={handleContactUsClick}
                 >Contact us
                 </div>
-                <div>
+                <div className="flex items-center bg-white rounded-full px-3">
                     <SearchField
                         variant="outlined"
                         placeholder="Search for products"
                         size="small"
+                        className="w-full"
                     />
+                    <FaSearch className="text-gray-500 ml-2 cursor-pointer"/>
                 </div>
                 <div className='hover:text-blue-300 cursor-pointer text-white'>About us</div>
             </div>
