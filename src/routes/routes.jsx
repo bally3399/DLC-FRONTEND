@@ -2,6 +2,7 @@ import Layout from "../component/layout/Layout";
 import ForgetPassword from "../pages/homepage/ForgetPassword";
 import LoginPage from "../pages/homepage/LoginPage";
 import SignupPage from "../pages/homepage/SignupPage";
+import OtpPage from "../pages/homepage/OtpPage";
 
 export const ROUTE=[
     {
@@ -19,5 +20,10 @@ export const ROUTE=[
     {
         path: "/forgetPassword",
         element: <ForgetPassword/>
+    },
+    {
+        path: "/otpPage",
+        element:<OtpPage/>
     }
+
 ]

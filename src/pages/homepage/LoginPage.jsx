@@ -91,7 +91,7 @@ const LoginPage = () => {
                 </form>
 
                 <div className="flex justify-between mt-6 text-sm">
-                    <a href="/forgetPassword" className="text-blue-500">Forgot Password?</a>
+                    <a href="/otpPage" className="text-blue-500">Forgot Password?</a>
                     <Link to="/signup" className="text-blue-500">Don't have an account? Sign up</Link>
 
                 </div>
